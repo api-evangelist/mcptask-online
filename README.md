@@ -1,4 +1,4 @@
-# mcptask-online
+# WorkVector s.r.o.
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,120 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mcptask-online is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mcptask.online/
+WorkVector s.r.o. provides AI developer services for companies, offering AI‑generated code to solve tasks, with a free 30‑day trial and paid plans. The platform automates coding, PR creation, and testing, targeting software development teams in Czech Republic and beyond. It integrates with GitHub, supports multiple languages, and emphasizes rapid delivery and quality assurance.
+
+**Areas:** AI · DeveloperTools · Automation · CzechRepublic · SaaS
+
+## WorkVector s.r.o. on APIs.io
+
+Everything profiled for WorkVector s.r.o. is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mcptask-online/](https://apis.io/providers/mcptask-online/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [mcptask API](https://apis.io/apis/mcptask-online/mcptask-api/) — REST API for mcptask platform providing task queue and AI coding agent operations.
+- [WorkVector s.r.o. API](https://apis.io/apis/mcptask-online/mcptask-online-api/) — WorkVector s.r.o. API as documented publicly: 26 operations. Contract generated from the documentation by API Evangelist (2026-11-18); not the provider's…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiAccountEventsIdResponse](https://apis.io/schemas/mcptask-online/mcptask-online-get-api-account-events-id-response/)
+- [GetApiAccountUsersIdResponse](https://apis.io/schemas/mcptask-online/mcptask-online-get-api-account-users-id-response/)
+- [GetApiAccountUsersIdTimeStatusResponse](https://apis.io/schemas/mcptask-online/mcptask-online-get-api-account-users-id-time-status-response/)
+- [GetApiAccountUsersIdWorkerTrackingResponse](https://apis.io/schemas/mcptask-online/mcptask-online-get-api-account-users-id-worker-tracking-response/)
+- [PostApiAccountBugReportsRequest](https://apis.io/schemas/mcptask-online/mcptask-online-post-api-account-bug-reports-request/)
+- [PostApiAccountPiecesRequest](https://apis.io/schemas/mcptask-online/mcptask-online-post-api-account-pieces-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mcptask Online Context](https://apis.io/jsonld/mcptask-online/mcptask-online-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [WorkVector s.r.o. API Rules](https://apis.io/rules/mcptask-online/mcptask-online-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [WorkVector s.r.o. Domain Security](https://apis.io/security/mcptask-online/mcptask-online-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [WorkVector s.r.o. Plans Pricing](https://apis.io/plans/mcptask-online/mcptask-online-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mcptask.online/)
+- [Pricing](https://mcptask.online/pricing)
+- [Changelog](https://github.com/jchsoft/mcptask-releases/releases/tag/v0.3.9)
+- [Blog](https://mcptask.online/blog/scope-creep?language=cs)
+- [Privacy policy](https://mcptask.online/privacy?language=cs)
+
+## API Evangelist rating
+
+**Kin Score 40.1** — developing · rubric 0.28.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 51.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 40.0 |
+
+**Agent readiness 38.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 13.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mcptask-online/](https://apis.io/providers/mcptask-online/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for WorkVector s.r.o.: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mcptask-online/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
